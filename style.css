@@ -1,6 +1,7 @@
 body
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -13,19 +14,22 @@ body
     flex-direction: column;
     justify-content:center;
     flex-wrap: nowrap;
+    width: 500px;
+    height: 500px;
 }
 
 .row
 {
     display: flex;
     flex-direction: row;
+    max-width: 500px;
 }
 
 .square
 {
     background-color: white;
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     border: 1px solid gray;
 }
 
